@@ -57,3 +57,13 @@ new_sqlite_classes = ["MailHub"]
 
 [build]
 command = "pnpm --prefix ../mail-vue install && pnpm --prefix ../mail-vue run build"
+
+
+[[kv_namespaces]]
+binding = "kv"
+id = "553fe276bf694c319371f8bccccb30fa"
+
+[[d1_databases]]
+binding = "db"
+database_name = "cloud-mail-db"
+database_id = "4481db8b-6858-4539-ac84-02316f3d547f"
